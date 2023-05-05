@@ -15,3 +15,13 @@ git push origin master
 ssh-keygen -t rsa -C "otaviomirandabr19@gmail.com"
 cat ~/.ssh/id_rsa.pub
 
+
+----------------------------------/---------------------/--------------------
+Ordem das importações:
+1. React
+2. bibliotecas externas (que não as nossas. ex: next, yup, tanstack, formik)
+3. nossas bibliotecas externas (printer-ui)
+4. hooks
+5. services
+6. types
+7. components
